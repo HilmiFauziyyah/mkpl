@@ -15,7 +15,7 @@ public class BbeNetworkTest {
 		try {
 			NetworkConfig network = NetworkConfig.fromYamlFile(file);
 			System.out.println(network);
-		} catch (InvalidArgumentException e) {
+		} catch (ValidArgumentException e) {
 			e.printStackTrace();
 		} catch (NetworkConfigurationException e) {
 			e.printStackTrace();
