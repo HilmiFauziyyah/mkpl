@@ -63,7 +63,7 @@ public class BbeNetworkGenerator {
 						.url("org1", "peer3", "106.12.95.182")
 						
 						// bind port to peers, default is 7051 for all peers and 7050 for all orderers. 
-						// .port("org1", "peer1", 7051)
+						 .port("org1", "peer1", 7051)
 						
 						// Build to JSON.
 						.build();
