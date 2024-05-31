@@ -10,7 +10,7 @@ import org.hyperledger.fabric.sdk.exception.NetworkConfigurationException;
 public class BbeNetworkTest {
 
 	public static void main(String[] args) {
-		File file = new File("src/main/resources/network/connection-org1.yml");
+		File file = new File("src/main/resources/network/connection-org5.yml");
 
 		try {
 			NetworkConfig network = NetworkConfig.fromYamlFile(file);
